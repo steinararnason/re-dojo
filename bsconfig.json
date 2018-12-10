@@ -1,0 +1,21 @@
+{
+  "name": "re-dojo",
+  "version": "0.1.0",
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+      // add your bs-dependencies here 
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "bsc-flags": ["-bs-super-errors", "-w @a-30-40-42-45-4-9", "-open Belt"],
+  "refmt": 3
+}
