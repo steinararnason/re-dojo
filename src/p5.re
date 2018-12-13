@@ -10,4 +10,9 @@ open Data;
 
 let solve = list => true;
 
-printAnswer(solve(p5) ? "true" : "false");
+printAnswer([
+  solve(p5),
+  solve([]),
+  solve(["a", "b", "a", "b"]),
+  solve(["a", "b", "b", "a"]),
+]);
