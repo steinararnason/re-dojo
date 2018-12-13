@@ -1,11 +1,8 @@
 /*
-    Implement the following function
-    solve : 'a list -> 'a option
-    It should return the last element of a list. (easy)
-
-    - Do not use the List module.
+    1. Write a function that returns the last element of a list. (easy)
  */
+open Data;
 
-let solve = someList => someList;
+let solve = list => list;
 
-Js.log(solve([1, 2, 3]));
+printAnswer(solve(p1));

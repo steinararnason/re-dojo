@@ -14,6 +14,6 @@
   "warnings": {
     "error" : "+101"
   },
-  "bsc-flags": ["-bs-super-errors", "-w @a-30-40-42-45-4-9", "-open Belt"],
+  "bsc-flags": ["-bs-super-errors", "-w @a-30-40-42-45-4-9-102-27", "-open Belt"],
   "refmt": 3
 }
