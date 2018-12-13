@@ -6,7 +6,8 @@
     Make use of the occurrences type.
 
     e.g.
-    solve(["a","a","a","a","b","c","c","a","a","d","e","e","e","e"]) = [(4, "a"), ("b"), (2, "c"), (2, "a"), ("d"), (4, "e")]
+    solve(["a","a","a","a","b","c","c","a","a","d","e","e","e","e"]) = [Many(4, "a"), One "b"; Many(2, "c"); Many (2, "a"); One "d";
+ Many (4, "e")]
  */
 open Data;
 
