@@ -8,6 +8,13 @@
  */
 open Data;
 
-let solve = list => true;
+/* let solve = list => true; */
 
-printAnswer(solve(p5) ? "true" : "false");
+let solve = list => list == List.reverse(list);
+
+printAnswer([
+  solve(p5),
+  solve([]),
+  solve(["a", "b", "a", "b"]),
+  solve(["a", "b", "b", "a"]),
+]);
